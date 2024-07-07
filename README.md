@@ -31,8 +31,8 @@ Il progetto è stato organizzato in più notebooks/files in base ai modelli e al
 | Nome File | Descrizione |
 | :---: | :---: |
 | `Analisi Dataset.ipynb` | Notebook per l'analisi del dataset e del csv ad esso associato |
-| `Classificatore I` | Notebook contenente il primo classificatore semplice |
-| `Classificatore II (CNN)` | Notebook contenente il secondo classificatore semplice  |       
+| `Classificatore I.ipynb` | Notebook contenente il primo classificatore semplice |
+| `Classificatore II (CNN).ipynb` | Notebook contenente il secondo classificatore semplice  |       
 | `settings.json`| File di configurazione per download del dataset e di altri file |
 | `shared_utilities.py`| File python contenente le funzioni condivise |
 
