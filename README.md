@@ -17,21 +17,36 @@
 L'unico requisito è un account Google per poter accedere a  <a href="https://drive.google.com/">Google Drive</a> e salvare la cartella contenente i notebooks da eseguire tramite <a href="https://colab.research.google.com">Google Colab</a>.     
 
 ## **Istruzioni step-by-step:**   
-coming soon
+1) Scaricare i file da GitHub e caricarli su Google Drive nella **<u>stessa cartella</u>**;     
+ **NOTA:** _È fortemente consigliato di creare la cartella del progetto nella propria home su Google Drive. Qualora si voglia comunque utilizzare una cartella differente sarà necessario aggiornare il percorso della cartella su ogni notebook._
+
+2) Aprire il file `settings.json` e inserire i Google Drive ID per il file zip contenente il dataset e per il file csv contenente informazioni extra riguardo il dataset. Il json fornito non contiene un ID per il dataset;<br>
+
+3) In qualsiasi notebook verrà chiesto di inserire il percorso della cartella Google Drive dove sono contenuti i vari file. Una volta impostata sarà possibile eseguire i notebooks;<br>
+ **NOTA:** _Il percorso va impostato manualmente in qualsiasi notebook al momento del suo primo utilizzo, poi rimarrà salvato e non ci sarà bisogno di inserirlo nuovamente._
 
 # Struttura del progetto
 Il progetto è stato organizzato in più notebooks/files in base ai modelli e alle operazioni da effettuare:
 
 | Nome File | Descrizione |
 | :---: | :---: |
-| coming | soon |
+| `Analisi Dataset.ipynb` | Notebook per l'analisi del dataset e del csv ad esso associato |
+| `Classificatore I` | Notebook contenente il primo classificatore semplice |
+| `Classificatore II (CNN)` | Notebook contenente il secondo classificatore semplice  |       
+| `settings.json`| File di configurazione per download del dataset e di altri file |
+| `shared_utilities.py`| File python contenente le funzioni condivise |
 
 # Librerie utilizzate
 All'interno dei notebook sono state utilizzate le seguenti librerie:
-
 | Libreria/e | Utilizzo |
 | :---: | :---: |
-| coming | soon |
+| `gdown` | Download da Google Drive |
+| `matplotlib` | Plot dei dati |
+| `pandas` | Analisi del csv |
+| `numpy` | Operazioni basilari |
+| `os` e `sys` | Impostazioni del sistema operativo e del runtime |
+| `tensorflow` | Modelli di Deep Learning (reti neurali) |
+| `random` | Generazione di numeri e indici randomici |
 
 # Autori
 <a href="https://github.com/TheRoberto2512">Roberto A. Usai</a>, <a href="https://github.com/postalino">Davide Senette</a>, <a href="https://github.com/Chiaras97">Chiara Scalas</a>
