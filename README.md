@@ -5,9 +5,14 @@
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 # Morph Attack Detection (MAD)
-<p align="justify">Il <b>morphing</b> è una tecnica sofisticata che combina più volti per creare immagini artificiali con l'obiettivo di eludere i sistemi di riconoscimento facciale. Questo progetto utilizza approcci di Machine Learning e Deep Learning per addestrare degli agenti in grado di rilevare le immagini contraffatte tramite morphing. </p>
+<p align="justify">
+Il <b>morphing</b> è una tecnica sofisticata che combina più volti per creare immagini artificiali con l'obiettivo di eludere i sistemi di riconoscimento facciale. Questa tecnica sfrutta le capacità avanzate dell'intelligenza artificiale per fondere caratteristiche distintive di volti diversi, generando così immagini che appaiono realistiche ma che, in realtà, sono false.
+<br><br>In questo progetto vengono utilizzati approcci di Machine Learning e Deep Learning per addestrare degli agenti in grado di rilevare le immagini contraffatte. È possibile consultare la presentazione del progetto a <a href="https://docs.google.com/presentation/d/1-yfGdvXWoD5BI5NDLq10w1Io41wOWotWv0fcinI6cJY/edit#slide=id.p">questo link</a>.
+</p>
+
  
 # Dataset utilizzato
 <p align="justify">Per il progetto è stato utilizzato il dataset <i>"AMSL Face Morph Image Data Set"</i>, scaricabile da <a href="https://omen.cs.uni-magdeburg.de/disclaimer/index.php">questo link</a>. Il repository contiene solamente i notebooks e i file necessari per addestrare ed eseguire i modelli, ma il dataset per gli addestramenti non viene fornito per via della licenza.</p>
@@ -31,25 +36,14 @@ Il progetto è stato organizzato in più notebooks/files in base ai modelli e al
 | Nome File | Descrizione |
 | :---: | :---: |
 | `Analisi Dataset.ipynb` | Notebook per l'analisi del dataset e del csv ad esso associato |
+| `Pre Processing.ipynb` | Notebook per il pre-processing del dataset |
 | `Classificatore I.ipynb` | Notebook contenente il primo classificatore semplice |
 | `Classificatore II (CNN).ipynb` | Notebook contenente il secondo classificatore semplice  |       
+| `Componente Avanzata.ipynb` | Notebook il sistema di riconoscimento facciale _naive_  |  
 | `settings.json`| File di configurazione per download del dataset e di altri file |
 | `shared_utilities.py`| File python contenente le funzioni condivise |
 
-# Librerie utilizzate
-All'interno dei notebook sono state utilizzate le seguenti librerie:
-| Libreria/e | Utilizzo |
-| :---: | :---: |
-| `gdown` | Download da Google Drive |
-| `matplotlib` | Plot dei dati |
-| `pandas` | Analisi del csv |
-| `numpy` | Operazioni basilari |
-| `os` e `sys` | Impostazioni del sistema operativo e del runtime |
-| `tensorflow` | Modelli di Deep Learning (reti neurali) |
-| `random` | Generazione di numeri e indici randomici |
-
 # Autori
-<a href="https://github.com/TheRoberto2512">Roberto A. Usai</a>, <a href="https://github.com/postalino">Davide Senette</a>, <a href="https://github.com/Chiaras97">Chiara Scalas</a>
-
-# Riferimenti
-coming soon
+<a href="https://github.com/theroberto2512/Morph-Attack-Detection/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=theroberto2512/Morph-Attack-Detection"/>
+</a>  
