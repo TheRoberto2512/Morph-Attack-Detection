@@ -33,6 +33,8 @@ L'unico requisito è un account Google per poter accedere a  <a href="https://dr
 # Struttura del progetto
 Il progetto è stato organizzato in più notebooks/files in base ai modelli e alle operazioni da effettuare:
 
+<div align="center">
+
 | Nome File | Descrizione |
 | :---: | :---: |
 | `Analisi Dataset.ipynb` | Notebook per l'analisi del dataset e del csv ad esso associato |
@@ -42,6 +44,8 @@ Il progetto è stato organizzato in più notebooks/files in base ai modelli e al
 | `Componente Avanzata.ipynb` | Notebook il sistema di riconoscimento facciale _naive_  |  
 | `settings.json`| File di configurazione per download del dataset e di altri file |
 | `shared_utilities.py`| File python contenente le funzioni condivise |
+
+</div>
 
 # Autori
 <a href="https://github.com/theroberto2512/Morph-Attack-Detection/graphs/contributors">
